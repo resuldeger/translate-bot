@@ -1,3 +1,21 @@
 {
-    "id": "qaoH-X-Dg"
+    "id": "r_j6I3avR",
+    "name": "translatebot",
+    "product": "livechat",
+    "blocks": {
+        "authorization": {
+            "clientId": "10be26c716eb3215bcf39796cf07517a",
+            "type": "javascript_app",
+            "redirectUri": "https://superb-dusk-acd5ab.netlify.app/"
+        },
+        "repository": {
+            "provider": "github",
+            "name": "resuldeger/translate-bot",
+            "branch": "main"
+        },
+        "deployment": {
+            "provider": "custom",
+            "url": "https://superb-dusk-acd5ab.netlify.app/"
+        }
+    }
 }
